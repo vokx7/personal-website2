@@ -2,10 +2,13 @@
 
 import { motion } from "framer-motion";
 import { AuroraBackground } from "./ui/aurora-background";
+import Navbar from "./Navbar";
 
 export default function Landing() {
   return (
     <>
+      {" "}
+      <Navbar />
       <AuroraBackground>
         <motion.div
           initial={{ opacity: 0.0, y: 40 }}
