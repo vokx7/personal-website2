@@ -2,36 +2,36 @@ import { PiSunLight, PiMoonLight } from "react-icons/pi";
 
 export default function Navbar() {
   return (
-    <div className="px-16 py-9 lg:py-12 bg-transparent">
+    <div className="px-16 py-9 lg:py-12 absolute z-50 w-full">
       <nav className="max-w-8xl flex flex-row justify-between items-center mx-auto">
-        <div className="flex justify-center gap-4 align-middle">
-          <a className="text-2xl font-medium ">
+        <div className="">
+          <a className="text-2xl font-semibold ">
             {" "}
             <h1>Weronika Pawlak</h1>
           </a>
         </div>
 
-        <ul className="hidden lg:flex">
+        <ul className="hidden lg:flex text-lg ">
           <li className="px-5 py-2">
             {" "}
-            <a href="/#" className="texxt-lg font-medium">
+            <a href="/#about" className="texxt-lg font-semibold">
               About
             </a>
           </li>
           <li className="px-5 py-2">
             {" "}
-            <a href="/#" className="texxt-lg font-medium">
+            <a href="/#projects" className="texxt-lg font-semibold">
               Projects
             </a>
           </li>
           <li className="px-5 py-2">
             {" "}
-            <a href="/#" className="texxt-lg font-medium">
+            <a href="/#contact" className="texxt-lg font-semibold">
               Contact
             </a>
           </li>
         </ul>
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex items-center justify-end gap-10 min-w-[180px] ">
           <PiSunLight size={28} />
           <PiMoonLight size={28} />
         </div>

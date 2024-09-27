@@ -1,12 +1,14 @@
+import About from "@/components/About";
 import Landing from "@/components/Landing";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       {" "}
       <Landing />
-      <div className=" min-h-screen p-8 pb-20"></div>
+      <div className=" min-h-screen p-8 lg:p-14 pb-20">
+        <About />
+      </div>
     </>
   );
 }
