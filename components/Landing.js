@@ -21,9 +21,9 @@ export default function Landing() {
           className="relative flex flex-col gap-4 items-center justify-center px-4 md:mx-10 lg:mx-14"
         >
           <div className="text-3xl md:text-[4rem] md:leading-none font-bold dark:text-white text-center">
-            Transforming <b className="text-blue-600">ideas</b> into sleek,
-            responsive and future-proof{" "}
-            <b className="text-blue-600">web apps</b>
+            Transforming <b className="text-pink-600">ideas</b> into sleek,
+            responsive and future-proof {/* text-[#84b067] */}
+            <b className="text-pink-600">web apps</b>
           </div>
           <div className="font-light text-base md:text-4xl dark:text-neutral-200 py-4">
             Let&apos;s build the future of the web together!

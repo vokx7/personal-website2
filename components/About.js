@@ -5,12 +5,12 @@ export default function About() {
   return (
     <div
       id="about"
-      className="mx-auto grid max-w-6xl items-center lg:grid-cols-2"
+      className="mx-auto grid max-w-6xl items-center lg:grid-cols-2 "
     >
-      <div className="flex-1 prose lg:prose-xl">
+      <div className="flex-1 prose lg:prose-xl ">
         <h1>
           Hello world, <br />{" "}
-          <span className="text-blue-600">I&apos;m Weronika</span>
+          <span className="text-pink-600">I&apos;m Weronika</span>
         </h1>
         <p className="text-xl text-slate-500">
           Morbi fermentum risus ut mauris imperdiet convallis. Sed in orci nunc.
