@@ -38,14 +38,14 @@ export default function ProjectContainer({ title, info, image, link }) {
             as={Link}
             href={link}
             target="__blank"
-            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white hover:bg-[#84b067]"
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white hover:bg-pink-600"
           >
             Try now →
           </CardItem>
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold flex flex-row items-center gap-2 hover:bg-[#84b067]"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold flex flex-row items-center gap-2 hover:bg-pink-600"
           >
             GitHub <FaGithubAlt />
           </CardItem>
