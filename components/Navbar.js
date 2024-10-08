@@ -12,28 +12,37 @@ export default function Navbar() {
         </div>
 
         <ul className="hidden lg:flex text-lg ">
-          <li className="px-5 py-2">
+          <li className="px-5 py-2 ">
             {" "}
-            <a href="/#about" className="texxt-lg font-semibold">
+            <a
+              href="/#about"
+              className="texxt-lg font-semibold hover:text-pink-600"
+            >
               About
             </a>
           </li>
           <li className="px-5 py-2">
             {" "}
-            <a href="/#projects" className="texxt-lg font-semibold">
+            <a
+              href="/#projects"
+              className="texxt-lg font-semibold hover:text-pink-600"
+            >
               Projects
             </a>
           </li>
           <li className="px-5 py-2">
             {" "}
-            <a href="/#contact" className="texxt-lg font-semibold">
+            <a
+              href="/#contact"
+              className="texxt-lg font-semibold hover:text-pink-600"
+            >
               Contact
             </a>
           </li>
         </ul>
         <div className="flex items-center justify-end gap-10 min-w-[180px] ">
-          <PiSunLight size={28} />
-          <PiMoonLight size={28} />
+          <PiSunLight size={28} color="transparent" />
+          <PiMoonLight size={28} color="transparent" />
         </div>
       </nav>
     </div>
