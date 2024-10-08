@@ -13,15 +13,13 @@ export default function About() {
           <span className="text-pink-600">I&apos;m Weronika</span>
         </h1>
         <p className="text-xl text-slate-500">
-          Morbi fermentum risus ut mauris imperdiet convallis. Sed in orci nunc.
-          Praesent feugiat nunc non hendrerit volutpat. Suspendisse ullamcorper
-          sem eget lorem elementum posuere. Quisque finibus neque accumsan enim
-          viverra aliquet. Integer quis odio ac ex iaculis pellentesque. Mauris
-          a metus pretium, rutrum tortor vitae, dictum arcu. Proin accumsan at
-          lacus in condimentum. In eleifend efficitur enim, at laoreet lacus
-          pharetra at. Mauris auctor interdum dui in pulvinar. In hac habitasse
-          platea dictumst. Vivamus venenatis sapien odio, vel mollis odio
-          facilisis sit amet.
+          Master&apos;s degree in Computer Science in Business with solid
+          knowledge in programming, UI/UX design and business analysis. I am
+          passionate about designing and implementing web applications, with a
+          particular focus on meeting user expectations. I have experience
+          working with Next.js, HTML, CSS. I am characterized by excellent work
+          organization, conscientiousness and a desire for continuous
+          professional development in the IT field.
         </p>
       </div>
       <div className="flex-1 flex justify-end">
