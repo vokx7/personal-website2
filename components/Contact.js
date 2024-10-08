@@ -5,7 +5,7 @@ import { HoverEffect } from "./ui/card-hover-effect";
 export default function Contact() {
   return (
     <div id="contact" className="mx-auto max-w-6xl mt-24">
-      <div className="my-auto prose lg:prose-xl">
+      <div className="px-8 lg:px-auto my-auto prose lg:prose-xl">
         <h1>
           Feel free to <span className="text-pink-600">contact me!</span>
         </h1>

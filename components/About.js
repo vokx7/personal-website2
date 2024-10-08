@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="mx-auto grid max-w-6xl items-center lg:grid-cols-2 "
+      className="px-8 lg:px-auto mx-auto grid max-w-6xl items-center lg:grid-cols-2 "
     >
       <div className="flex-1 prose lg:prose-xl ">
         <h1>
@@ -22,7 +22,7 @@ export default function About() {
           professional development in the IT field.
         </p>
       </div>
-      <div className="flex-1 flex justify-end">
+      <div className="py-8 lg:py-auto flex-1 flex justify-end">
         <Image
           src={author}
           width={400}
