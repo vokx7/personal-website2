@@ -31,11 +31,7 @@ export default function Navbar() {
           <ul className="hidden lg:flex text-lg mx-auto">
             <li className="px-5 py-6 lg:py-2">
               {" "}
-              <a
-                href="/#about"
-                className="font-semibold hover:text-pink-600"
-                onClick={handleToggle}
-              >
+              <a href="/#about" className="font-semibold hover:text-pink-600">
                 About
               </a>
             </li>
@@ -44,18 +40,13 @@ export default function Navbar() {
               <a
                 href="/#projects"
                 className="font-semibold hover:text-pink-600"
-                onClick={handleToggle}
               >
                 Projects
               </a>
             </li>
             <li className="px-5 py-6 lg:py-2">
               {" "}
-              <a
-                href="/#contact"
-                className="font-semibold hover:text-pink-600"
-                onClick={handleToggle}
-              >
+              <a href="/#contact" className="font-semibold hover:text-pink-600">
                 Contact
               </a>
             </li>
