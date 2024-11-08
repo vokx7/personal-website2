@@ -13,13 +13,13 @@ export default function About() {
           <span className="text-pink-600">I&apos;m Weronika</span>
         </h1>
         <p className="text-xl text-slate-500">
-          Master&apos;s degree in Computer Science in Business with solid
-          knowledge in programming, UI/UX design and business analysis. I am
-          passionate about designing and implementing web applications, with a
-          particular focus on meeting user expectations. I have experience
-          working with Next.js, HTML, CSS. I am characterized by excellent work
-          organization, conscientiousness and a desire for continuous
-          professional development in the IT field.
+          Master&apos;s degree in IT in Business, specializing in analysis and
+          design of systems. I am passionate about designing and implementing
+          web applications with a particular focus on meeting user expectations.
+          I have experience working with Next.js (React), HTML, CSS, WordPress
+          and Figma. I am characterized by excellent work organization,
+          conscientiousness and a desire for continuous professional development
+          in the IT field.
         </p>
       </div>
       <div className="py-8 lg:py-auto flex-1 flex justify-end">
